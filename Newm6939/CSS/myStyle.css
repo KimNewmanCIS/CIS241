@@ -37,6 +37,7 @@ background-color:#deeedd;
 display:grid;
 grid-template-columns: 16% 16% 16% 16% 16% 16%;
 grid-template-rows: 16% 16%  16%;
+	height:20%;
 align:"center";
 }
 
