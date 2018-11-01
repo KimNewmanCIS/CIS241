@@ -1,0 +1,81 @@
+/* STYLE SHEET FOR Kim Website */
+
+/*#778c60; dark green, #deeedd; light green, #c68e17; orange*/
+
+header
+{
+background-color:#deeedd;	
+}
+
+article 	
+{	
+margin-left:7.5%;
+margin-right:7.5%;
+background-color:#ffffff;
+height:"auto";
+}
+
+Nav
+{
+display:block;
+align:"center";
+background-color:#deeedd;
+max-width:65%;	
+height:15%;
+margin-left:auto;
+margin-right:auto;
+}
+/*15 85* align:"center";max-height:15%;*/
+	
+body
+{
+background-color:#deeedd;
+}
+
+.container
+{
+display:grid;
+grid-template-columns: 16% 16% 16% 16% 16% 16%;
+grid-template-rows: 16% 16%  16%;
+align:"center";
+}
+
+img
+{
+max-width:85%;
+height:auto;
+}
+
+img.floatright
+{
+float:right;
+} 
+
+img.floatleft
+{
+float:left;
+}
+
+img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+} 
+
+img.button
+{
+margin-left:auto;
+margin-right:auto;	
+height:auto;
+max-width:20%;
+min-width:73px;
+align:"center";
+}
+
+footer
+{
+background-color:#deeedd;
+}	
+

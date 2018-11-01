@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Guest Book - Kim Newman</title>
+<meta name="author" content="Kim Newman"/>
+<meta name="Keywords" content="Kim Newman,............"/>
+<meta name="Description" content=""/>
+<meta http-equiv="refresh" content="30">
+<meta name="robots" content="follow"/>
+<link rel="stylesheet"  type="text/css" href="../css/myStyle.css"/>
+</head>
+
+
+<body>
+<header>
+<img src="../images/header.jpg" alt="Kim on a quad with son" class="center">
+</header>
+
+<nav>
+<a href="home.html"><img src="../images/home.jpg" alt="Home" class="button"> </a>
+<a href="interests.html"><img src="../images/interests.jpg" alt="Interests" class="button"></a>
+<a href="resume.html"><img src="../images/resume.jpg" alt="Kim Newman Resume" class="button"></a>
+<a href="reflections.html"><img src="../images/reflections.jpg" alt="Reflections" class="button"></a>
+<a href="guestbook.html"><img src="../images/guestbook.jpg" alt="Guest book" class="button"></a>
+</nav>
+
+<article>
+<h1>Kim Newman Guest Book Page</h1>
+
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your First Name: <input type="text" name="FirstName" size="40"/>
+<br/>
+<br/>
+Enter Your Last Name: <input type="text" name="LastName" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+What country do you live in? <input type="text" name="CountryFrom" size="40"/>
+<br/>
+<br/>
+What is your age group?<br/>
+<input type="radio" name="AddToList" value="Under18"/>Under 18 <br/>
+<input type="radio" name="AddToList" value="18-30"/>18-30<br/>
+<input type="radio" name="AddToList" value="31-45"/>31-45<br/>
+<input type="radio" name="AddToList" value="46-64"/>46-64<br/>
+<input type="radio" name="AddToList" value="65+"/>65 and over
+<br/>
+<br/>
+Should we add you to our mailing list?<input type="checkbox" name="EMailList"/><br/>
+<br/>
+<br/>
+What web technologies are you interested in? (choose all that apply):
+<br/>
+<select name="work" Multiple="multiple"size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+How did you find my website?<br/>
+<select name="FindWebsite">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</Option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+
+Comments: <br/>
+<textarea name="comments" cols="30" rows="3">Enter your message here
+</textarea>
+<br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>	
+</form>
+</article>
+
+<aside>
+aside
+</aside>
+
+<footer>
+<img src="../images/footer.gif" alt="Massage Clinic Footer" class="center">
+</footer>
+
+
+</body>
+</html>
