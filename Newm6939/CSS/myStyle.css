@@ -35,10 +35,10 @@ background-color:#deeedd;
 .container
 {
 display:grid;
+grid-column-gap: 50px;
 grid-template-columns: 16% 16% 16% 16% 16% 16%;
 grid-template-rows: 20% 20%  20%;
 align:"center";
-	max-height:500px;
 }
 
 img
