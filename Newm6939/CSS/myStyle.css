@@ -38,7 +38,7 @@ display:grid;
 grid-template-columns: 16% 16% 16% 16% 16% 16%;
 grid-template-rows: 20% 20%  20%;
 align:"center";
-grid-row-gap: 50px;
+grid-row-gap: 100px;
 }
 
 img
