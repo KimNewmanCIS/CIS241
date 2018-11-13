@@ -1,0 +1,136 @@
+/* STYLE SHEET FOR Kim Website */
+
+/*#778c60; dark green, #deeedd; light green, #c68e17; orange*/
+
+h1
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 300%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color:#778c60;	
+}
+
+h2
+{
+margin-top: 3px; 
+font-weight: bold; 
+font-size: 200%;
+margin-bottom: 3px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h3
+{
+margin-top: 3px; 
+font-weight: bold; 
+font-size: 120%;
+margin-bottom: 3px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+header
+{
+background-color:#deeedd;	
+}
+
+article 	
+{	
+margin-left:7.5%;
+margin-right:7.5%;
+background-color:#ffffff;
+height:"auto";
+}
+
+Nav
+{
+display:block;
+align:"center";
+background-color:#deeedd;
+max-width:65%;	
+height:15%;
+margin-left:auto;
+margin-right:auto;
+}
+/*15 85* align:"center";max-height:15%;*/
+	
+body
+{
+background-color:#deeedd;
+}
+
+.container
+{
+display:grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20%  20%;
+grid-row-gap: 50px;
+margin:50px;
+}
+
+.item1 
+{
+  grid-area: 1 / 2 / 4/ 5;
+  margin: 50px;
+}
+ 
+.container2
+{
+display:grid;
+grid-template-columns: 30% 65%;
+width=500px;
+grid-row-gap: 50px;
+grid-column-gap: 25px;
+margin:50px;
+}
+
+.container3
+{
+display:grid;
+grid-template-columns: 65% 30%;
+width=500px;
+grid-row-gap: 50px;
+grid-column-gap: 25px;
+margin:50px;
+}
+
+img
+{
+max-width:85%;
+height:auto;
+}
+
+img.floatright
+{
+float:right;
+} 
+
+img.floatleft
+{
+float:left;
+}
+
+img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+} 
+
+img.button
+{
+margin-left:auto;
+margin-right:auto;	
+height:auto;
+max-width:20%;
+min-width:73px;
+align:"center";
+}
+
+footer
+{
+background-color:#deeedd;
+}	
+
